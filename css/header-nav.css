@@ -1,0 +1,67 @@
+.main-header {
+	background: #eee;
+}
+
+.header-navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.logo {
+	display: block;
+	background: url(../img/nerds-logo.png) no-repeat center / contain ;
+	width: 161px;
+	height: 65px;
+}
+
+.logo:hover {
+	display: block;
+	background: url(../img/nerds-logo2.png) no-repeat center / contain ;
+}
+
+.logo:active {
+	display: block;
+	background: url(../img/nerds-logo3.png) no-repeat center / contain ;
+}
+
+.link {
+	font-family: "Roboto Medium", serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #283136;
+	font-weight: bold;
+	margin-top: 10px;	
+	margin-left: 48px;
+	border-bottom: 2px solid #eee;
+	line-height: 1.2;
+}
+
+.link:visited {
+	color: #283136;
+}
+
+.link:hover {
+	color: #f87f81;
+}
+
+.link:active {
+	color: #ababab;
+}
+
+.active-link {
+	border-bottom: 2px solid #fb565a;
+}
+
+.garbage {
+	margin: 0;
+}
+
+.garbage2 {
+	margin-right: 20px;
+}
+
+.garbage-padding {
+	padding-right: 5px;
+}

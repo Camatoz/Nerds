@@ -1,0 +1,9 @@
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "browser.png": Duplicate path: browser.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "browser.png": Duplicate path: browser.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "browser.png": Duplicate path: browser.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "browser.png": Duplicate path: browser.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "browser.png": Duplicate path: browser.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "radio-off.png": Duplicate path: radio-off.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "checkbox-off.png": Duplicate path: checkbox-off.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "checkbox-off.png": Duplicate path: checkbox-off.png
+[Thu Jul 25 2019 18:48:05 GMT+0300 (RTZ 2 (зима))] layer "checkbox-on.png": Duplicate path: checkbox-on.png

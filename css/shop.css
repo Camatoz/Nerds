@@ -1,0 +1,284 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Open Sans','Roboto', serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1160px;
+	margin: auto;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-family: "Roboto Medium", serif;
+	font-size: 55px;
+	text-align: center;
+	padding-bottom: 120px;
+}
+
+h2 {
+	font-family: "Roboto Medium", serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.header-form {
+	max-width: 260px;
+}
+
+input[type="range"] {
+	margin: 0;
+	width: 100%;
+	height: 80px;
+
+}
+
+input[type="text"] {
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	background-color: #eee;
+	color: #5d6367;
+	border: none;
+	border-radius: 3px;
+}
+
+label {
+	font-family: 'Open Sans','Roboto', serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+	margin: 0;
+	padding: 0;
+}
+
+
+.head-form-text {
+	display: block;
+}
+
+.head-form-plas {
+	margin-left: 40px;
+}
+
+input[type="radio"] {
+	margin-top: 15px;
+}
+
+.head-form-btn {
+	margin-top: 50px;
+	padding: 0;
+	border: none;
+	width: 260px;
+	height: 50px;
+	background-color: #eee;
+	border-radius: 3px;
+	font-family: "Roboto Medium", serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.head-form-btn:hover {
+	background-color: #e0e0e0;
+}
+
+.head-form-btn:active {
+	background-color: #d6d6d6;
+	color: #acacac;
+}
+
+.price-catalog {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.price {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+/*CATALOG*/
+
+.catalog {
+	display: flex;
+	flex-direction: column;
+	width: 32%;
+}
+
+.catalog-pic1 {
+	display: block;
+	background: url(../img/browser.png) no-repeat center / contain ;
+	width: 360px;
+	height: 40px;
+}
+
+.catalog-pik-all:hover  .catalog-pic1 {
+	display: block;
+	background: url(../img/browser-copy.png) no-repeat center / contain ;
+	width: 360px;
+	height: 40px;
+}
+/*TEST*/
+.shop-hover-all {
+	background: url('http://moyhutor.net/wp-content/uploads/2012/08/ogurec1.jpg') no-repeat center bottom;
+	width: 360px;
+	height: 576px;
+	margin: 0 auto;
+}
+
+.shop-hover1 {
+	display: none;
+	color: #fff;
+	text-align: center;
+	transition: .5s ease;
+	margin: 0;
+	padding: 50px 0 ;
+}
+
+.shop-hover2 {
+	display: none;
+	color: #fff;
+	text-align: center;
+	transition: .5s ease;
+	padding: 50px 0 ;
+}
+
+.shop-hover-btn {
+	display: none;
+	transition: .5s ease;
+}
+
+.shop-hover-all:hover .shop-hover1 {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.shop-hover-all:hover .shop-hover2 {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.shop-hover-all:hover .shop-hover-btn {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+/*TEST*/
+
+.catalog-pic2 {
+	display: block;
+	background: url(../img/img-sedona.jpg) no-repeat center / contain ;
+	width: 360px;
+	height: 576px;
+}
+
+.catalog-pic3 {
+	display: block;
+	background: url(../img/img-barbershop.jpg) no-repeat center / contain ;
+	width: 360px;
+	height: 576px;
+}
+
+.catalog-pic4 {
+	display: block;
+	background: url(../img/img-aplus.jpg) no-repeat center / contain ;
+	width: 360px;
+	height: 576px;
+}
+
+.catalog-pic5 {
+	display: block;
+	background: url(../img/img-pink.jpg) no-repeat center / contain ;
+	width: 360px;
+	height: 576px;
+}
+
+.catalog-pic6 {
+	display: block;
+	background: url(../img/img-mishka.jpg) no-repeat center / contain ;
+	width: 360px;
+	height: 576px;
+}
+
+.catalog-pic7 {
+	display: block;
+	background: url(../img/img-kvast.jpg) no-repeat center / contain ;
+	width: 360px;
+	height: 576px;
+}
+
+.catalog-pik-all {
+	margin-top: 35px;
+}
+
+.catalog-discription {
+	max-width: 360px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.catalog-choice {
+	font-family: 'Open Sans','Roboto', serif;
+	text-decoration: none;
+	color: #ccc;
+}
+
+.catalog-choice:hover {
+	color: #000;
+}
+
+.pages {
+	margin: 60px 0;
+	text-align: center;
+	font-family: Roboto, serif;
+}
+
+.page-1 {
+	padding: 15px 20px;
+	background: #eee;
+	border:2px solid #eee;
+	border-radius: 3px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: #000;
+	font-family: Roboto, serif;
+}
+
+.page-2 {
+	padding: 15px 60px;
+}
+
+.page-1:hover {
+	background: #fff;
+	border:2px solid #dbdbdb;
+}
+
+.page-1:hover {
+	background: #fff;
+	border:2px solid #dbdbdb;
+}
+
+.page-active {
+	border-bottom: 2px solid #fb565a;
+}

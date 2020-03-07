@@ -1,0 +1,8 @@
+.clock {
+	padding: 20px;
+	box-shadow: 0 0 3px black;
+	position: fixed;
+	top: 3px;
+	right: 3px;
+	background: rgba(255, 255, 255, 0.8);
+}

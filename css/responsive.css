@@ -206,11 +206,6 @@
 
 @media (max-width: 800px) {
 
-	.main-navigation {
-		display: flex;
-		flex-direction: column;
-	}
-
 	.link {
 		margin-top: 10px;
 		margin-left: 0;

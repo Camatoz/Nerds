@@ -11,19 +11,19 @@
 
 .logo {
 	display: block;
-	background: url(../img/nerds-logo.png) no-repeat center / contain ;
+	background: url(../img/nerds-logo.png) no-repeat center / contain;
 	width: 161px;
 	height: 65px;
 }
 
 .logo:hover {
 	display: block;
-	background: url(../img/nerds-logo2.png) no-repeat center / contain ;
+	background: url(../img/nerds-logo2.png) no-repeat center / contain;
 }
 
 .logo:active {
 	display: block;
-	background: url(../img/nerds-logo3.png) no-repeat center / contain ;
+	background: url(../img/nerds-logo3.png) no-repeat center / contain;
 }
 
 .link {
@@ -32,7 +32,7 @@
 	text-transform: uppercase;
 	color: #283136;
 	font-weight: bold;
-	margin-top: 10px;	
+	margin-top: 10px;
 	margin-left: 48px;
 	border-bottom: 2px solid #eee;
 	line-height: 1.2;
@@ -64,4 +64,79 @@
 
 .garbage-padding {
 	padding-right: 5px;
+}
+
+/* Burger Zone */
+.burger-btn {
+	display: none;
+	position: relative;
+	width: 30px;
+	height: 20px;
+	padding: 20px 30px;
+}
+
+.burger-btn span {
+	transition: all 0.3s ease-in-out;
+	width: 30px;
+	height: 2px;
+	background: #283136;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 9px;
+}
+
+.burger-btn span:before {
+	transition: all 0.3s ease-in-out;
+	content: '';
+	width: 30px;
+	height: 2px;
+	background-color: #283136;
+	display: block;
+	top: -9.09090909px;
+	position: absolute;
+	left: 0;
+}
+
+.burger-btn span:after {
+	transition: all 0.3s ease-in-out;
+	content: '';
+	width: 30px;
+	height: 2px;
+	background-color: #283136;
+	display: block;
+	top: 9px;
+	position: absolute;
+	left: 0;
+}
+
+.burger-btn.active span {
+	background-color: transparent;
+}
+
+.burger-btn.active span:before {
+	transform: rotate(-135deg);
+	top: 0;
+}
+
+.burger-btn.active span:after {
+	top: 0;
+	transform: rotate(135deg);
+}
+
+@media (max-width: 900px) {
+	.burger-btn {
+		display: block;
+	}
+	
+	.main-navigation {
+		display: none;
+		position: absolute;
+		background: #ababab;
+		box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+	}
+
+	.link {
+		display: block;
+	}
 }

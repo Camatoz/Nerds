@@ -1,20 +1,14 @@
-$(function(){
-    initBurgerMenu();
+window.addEventListener("load", function() {
+  initBurgerMenu();
 });
 
 function initBurgerMenu() {
-    let btn = $("a.burger-btn");
-    let menu = $('nav.main-navigation');
-    let btnPos = btn.position();
-    let menuRightPos = $(window).width()-btnPos.left-btn.outerWidth();
+  let btn = document.querySelector("a.burger-btn");
+  let menu = document.querySelector("nav.main-navigation");
 
-    btn.click(function() {
-        btn.toggleClass('active');
-        menu.css({
-            top:btnPos.top + btn.outerHeight(), 
-            right:menuRightPos
-        }).slideToggle(300);
-        return false;
-    })
+  btn.addEventListener("click", function() {
+    menu.classList.toggle("active");
+    btn.classList.toggle("active");
+    return false;
+  });
 }
-

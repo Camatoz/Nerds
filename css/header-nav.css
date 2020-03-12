@@ -124,16 +124,23 @@
 	transform: rotate(135deg);
 }
 
+.main-navigation.active {
+	right: 0;
+}
+
 @media (max-width: 900px) {
 	.burger-btn {
 		display: block;
 	}
-	
+
 	.main-navigation {
-		display: none;
+		/* display: none; */
+		right: -50%;
 		position: absolute;
 		background: #ababab;
 		box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+		transition: all 0.5s;
+		top: 100px;
 	}
 
 	.link {
